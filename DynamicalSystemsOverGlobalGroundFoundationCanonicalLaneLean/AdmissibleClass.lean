@@ -1,0 +1,13 @@
+import DynamicalSystemsOverGlobalGroundFoundationCanonicalLaneLean.DynamicalSystemObject
+
+namespace HautevilleHouse
+namespace DynamicalSystemsOverGlobalGroundFoundationCanonicalLaneLean
+
+structure AdmissibleClass where
+  object : DynamicalSystemAdmittedObject
+  endpointSatisfied : Prop
+  remainderRecorded : Prop
+  gateWitness : endpointSatisfied ∨ remainderRecorded
+
+end DynamicalSystemsOverGlobalGroundFoundationCanonicalLaneLean
+end HautevilleHouse
